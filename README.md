@@ -11,17 +11,19 @@ La forme task( nomDeTache, periode ) permet une lecture de code est plus éviden
 
 ## Exemples :
 ```javascript
-Loop(){// ici deux blocs de code s'executent en "parralèle"
+Loop(){// ici deux blocs de code s'exécutent en "parallèle"
   cron(100){
     //exécuter ce bloc de code toutes les 100 ms
+    ...
   }
   
-  cron(1000) cetteFonction() ;
+  cron(1000) uneFonction();
 }
 ```
 Il est possible de déclarer un nom de tâche pour ajouter à la lisibilité du code
 ```javascript
 task( TaskName, periode ){
   // blabla
+  ...
 }// TaskName
 ```
