@@ -1,16 +1,15 @@
 # DaK_task
 
-
 Task permet de lancer un traitement périodique depuis l’intérieur de la boucle loop().
-L’objectif est d’obtenir une écriture la plus simple possible pour obtenir une organisation du code sous forme de multitâche coopératif.
+L’objectif est d’obtenir l'écriture la plus simple possible pour obtenir une organisation du code sous forme de multitâche coopératif.
 
-##Fonctionnement
+## Fonctionnement
 C’est une macro C, faisant appel au préprocesseur. 
 La macro utilise la fonction millis().
 La forme la plus simple d'utilisation est cron( periode ) traitement.
-La forme task( nomDeTache, periode ) permet une lecture de code est plus évidente.
+La forme task( nomDeTache, periode ) permet une lecture de code est plus évidente, et permet également d'accéder à la variable interne.
 
-##Exemples :
+## Exemples :
 ```javascript
 Loop(){// ici deux blocs de code s'executent en "parralèle"
   cron(100){
