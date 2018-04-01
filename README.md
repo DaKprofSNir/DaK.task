@@ -1,6 +1,6 @@
 # DaK_task
 
-Task permet de lancer un traitement périodique depuis l’intérieur de la boucle loop().
+Task permet de lancer un traitement périodique depuis l’intérieur de la boucle loop() d'un code Arduino.
 L’objectif est d’obtenir l'écriture la plus simple possible pour obtenir une organisation du code sous forme de multitâche coopératif.
 
 ## Fonctionnement
